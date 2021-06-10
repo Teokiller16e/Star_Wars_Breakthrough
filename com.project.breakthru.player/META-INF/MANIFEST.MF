@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Player
+Bundle-SymbolicName: com.project.breakthru.player;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: PROJECT
+Automatic-Module-Name: com.project.breakthru.player
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.project.breakthru.core.model,
+ com.project.breakthru.core.model.piece,
+ com.project.breakthru.player
+Export-Package: com.project.breakthru.player

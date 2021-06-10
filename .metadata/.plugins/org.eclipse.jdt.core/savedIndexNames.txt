@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\user\Downloads\Breakthru_Workspace\.metadata\.plugins\org.eclipse.jdt.core
+2133521843.index
+4072079968.index
+847838429.index

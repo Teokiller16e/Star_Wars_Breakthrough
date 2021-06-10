@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_6wlLcMgZEeSyMNYR5xypkQ" elementId="com.project.breakthru.app.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="com.project.breakthru.app.window.main" label="Eclipse 4 RCP Application" iconURI="">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_6wlLksgZEeSyMNYR5xypkQ" elementId="com.project.breakthru.app.partsashcontainer.sample" horizontal="true">
+      <children xsi:type="basic:PartStack" xmi:id="_B13mUPbWEeqmTba56sowvA" elementId="com.project.breakthru.app.partstack.graveyardGold" containerData="2">
+        <children xsi:type="basic:Part" xmi:id="_qIyTsPbaEeqmTba56sowvA" elementId="com.project.breakthru.app.part.graveyard.gold" contributionURI="bundleclass://com.project.breakthru.app/com.project.breakthru.app.parts.GoldGraveyardPart"/>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_6wlLk8gZEeSyMNYR5xypkQ" elementId="com.project.breakthru.app.partstack.sample" containerData="3">
+        <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="com.project.breakthru.app.part.sample" contributionURI="bundleclass://com.project.breakthru.app/com.project.breakthru.app.parts.breakthruBoardPart" label="Breakthru Board Part" iconURI="platform:/plugin/com.project.breakthru.app/icons/home.png"/>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_CT4_EPbWEeqmTba56sowvA" elementId="com.project.breakthru.app.partstack.graveyardSilver" containerData="2">
+        <children xsi:type="basic:Part" xmi:id="_qiiQcPbaEeqmTba56sowvA" elementId="com.project.breakthru.app.part.graveyard.silver" contributionURI="bundleclass://com.project.breakthru.app/com.project.breakthru.app.parts.SilverGraveyardPart"/>
+      </children>
+    </children>
+  </children>
+  <addons xmi:id="_6wlLcsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_6wlLc8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_6wlLdMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_6wlLdcgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_6wlLdsgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_6wlLd8gZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_6wlLeMgZEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
